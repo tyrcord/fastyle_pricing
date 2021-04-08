@@ -1,7 +1,7 @@
 name: fastyle_pricing
 description: A new Flutter package project.
 version: 0.1.0
-author: Tyrcord, Inc.
+homepage: https://github.com/tyrcord/fastyle_pricing
 
 environment:
   sdk: '>=2.12.0 <3.0.0'

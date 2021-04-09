@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 import 'package:fastyle_pricing/fastyle_pricing.dart';
@@ -54,7 +56,13 @@ class PlanSummaryCardsPage extends StatelessWidget {
                 );
               });
             },
-            footer: FastLink(text: 'Restore Purchases', onTap: () {}),
+            footer: FastLink(
+              text: 'Restore Purchases',
+              textAlign: TextAlign.center,
+              onTap: () {
+                log('restore Purchases');
+              },
+            ),
           ),
           kFastSizedBox16,
         ],

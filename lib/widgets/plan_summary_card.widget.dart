@@ -30,10 +30,11 @@ class FastPlanSummaryCard extends StatelessWidget {
         children: [
           if (titleText != null)
             FastPadding8(
-              child: FastBody(
+              child: FastTitle(
                 text: titleText!,
                 textColor: titleColor,
                 textAlign: TextAlign.center,
+                fontWeight: FontWeight.w700,
               ),
             ),
           Container(
@@ -50,7 +51,7 @@ class FastPlanSummaryCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FastDivider(color: ThemeHelper.colors.getShadowColor(context)),
-                FastPadding8(child: Center(child: footer!)),
+                FastPadding8(child: footer!),
               ],
             ),
         ],

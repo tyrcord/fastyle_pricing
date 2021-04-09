@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [0.2.0-beta.2](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.2.0-beta.2) (2021-04-09)
+
+### Enhancements
+
+- Refactor FastPlanSummaryCard widget.
+
 ## [0.2.0-beta.1](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.2.0-beta.1) (2021-04-08)
 
 ### Enhancements

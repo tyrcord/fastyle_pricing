@@ -8,6 +8,7 @@ class FastPlanSummaryCard extends StatelessWidget {
   final WidgetBuilder? iconBuilder;
   final String? titleText;
   final Color? titleColor;
+  final Widget? footer;
   final Widget? icon;
 
   const FastPlanSummaryCard({
@@ -18,6 +19,7 @@ class FastPlanSummaryCard extends StatelessWidget {
     this.titleText,
     this.titleColor,
     this.icon,
+    this.footer,
   }) : super(key: key);
 
   @override
@@ -26,21 +28,29 @@ class FastPlanSummaryCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          if (titleText != null)
+            FastPadding8(
+              child: FastBody(
+                text: titleText!,
+                textColor: titleColor,
+                textAlign: TextAlign.center,
+              ),
+            ),
           Container(
-            padding: kFastEdgeInsets8,
             constraints: BoxConstraints(
               minHeight: minIconContainerHeight,
               maxHeight: maxIconContainerHeight,
             ),
             child: iconBuilder != null ? Builder(builder: iconBuilder!) : icon,
           ),
-          if (titleText != null)
+          kFastSizedBox8,
+          if (footer != null)
             Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FastDivider(color: ThemeHelper.colors.getShadowColor(context)),
-                FastPadding8(
-                  child: FastBody2(text: titleText!, textColor: titleColor),
-                ),
+                FastPadding8(child: Center(child: footer!)),
               ],
             ),
         ],

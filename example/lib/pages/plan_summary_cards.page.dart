@@ -25,6 +25,7 @@ class PlanSummaryCardsPage extends StatelessWidget {
                 );
               });
             },
+            footer: FastLink(text: 'Go  Premium', onTap: () {}),
           ),
           kFastSizedBox16,
           FastPlanSummaryCard(
@@ -43,6 +44,7 @@ class PlanSummaryCardsPage extends StatelessWidget {
           kFastSizedBox16,
           FastPlanSummaryCard(
             titleText: 'Premium Version',
+            titleColor: color,
             iconBuilder: (context) {
               return LayoutBuilder(builder: (context, constraint) {
                 return Icon(
@@ -52,6 +54,7 @@ class PlanSummaryCardsPage extends StatelessWidget {
                 );
               });
             },
+            footer: FastLink(text: 'Restore Purchases', onTap: () {}),
           ),
           kFastSizedBox16,
         ],

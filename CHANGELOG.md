@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [0.2.0-beta.3](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.2.0-beta.3) (2021-04-09)
+
+### Enhancements
+
+- Minor fix and performance improvements.
+
 ## [0.2.0-beta.2](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.2.0-beta.2) (2021-04-09)
 
 ### Enhancements

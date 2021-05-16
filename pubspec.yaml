@@ -5,14 +5,15 @@ homepage: https://github.com/tyrcord/fastyle_pricing
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  fastyle_dart: ^0.22.0-beta.0
+  fastyle_dart: ^0.22.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  dart_code_metrics: ^3.2.2

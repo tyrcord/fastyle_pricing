@@ -91,7 +91,7 @@ packages:
       name: fastyle_dart
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.27.1"
+    version: "0.28.0"
   fastyle_pricing:
     dependency: "direct main"
     description:
@@ -283,7 +283,7 @@ packages:
       name: provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0"
+    version: "6.0.2"
   quiver:
     dependency: transitive
     description:
@@ -358,7 +358,7 @@ packages:
       name: tbloc_dart
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.18.2"
+    version: "0.19.0"
   term_glyph:
     dependency: transitive
     description:
@@ -379,7 +379,7 @@ packages:
       name: tmodel_dart
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.1"
+    version: "0.4.0"
   tuple:
     dependency: transitive
     description:

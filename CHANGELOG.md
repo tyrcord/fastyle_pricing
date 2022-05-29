@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [0.4.0](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.4.0) (2022-05-29)
+
+### Enhancements
+
+- Update dependencies.
+
 ## [0.3.0](https://github.com/tyrcord/fastyle_pricing/releases/tag/0.3.0) (2022-02-09)
 
 ### Enhancements
